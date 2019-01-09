@@ -22,7 +22,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:ems="10"
         android:id="@+id/editText"
         android:layout_above="@+id/Timerfield"
@@ -30,20 +30,20 @@
         android:textAlignment="viewEnd" />
 
     <Button
-        android:text="@android:string/cancel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button4"
-        android:layout_above="@+id/editText"
-        android:layout_toEndOf="@+id/button2" />
-
-    <Button
         android:text="@string/btime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button2"
         android:layout_above="@+id/editText"
-        android:layout_alignStart="@+id/editText"
-        android:layout_marginStart="15dp" />
+        android:layout_alignStart="@+id/editText" />
+
+    <Button
+        android:text="@android:string/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_above="@+id/editText"
+        android:layout_alignEnd="@+id/editText" />
+
 
 </RelativeLayout>
