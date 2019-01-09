@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     String seconds = String.format("%02d", (millisUntilFinished / 1000) % 60);
                     String minutes = Long.toString((millisUntilFinished / 1000) / 60);
-                    String time = minutes + ":" + seconds + " remaining...";
+                    String time = minutes + ":" + seconds + " min remaining...";
                     textView.setText(time);
                 }
             }
