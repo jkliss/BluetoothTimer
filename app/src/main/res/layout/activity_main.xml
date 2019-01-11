@@ -22,7 +22,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="number"
+        android:inputType="numberDecimal|numberSigned"
         android:ems="10"
         android:id="@+id/editText"
         android:layout_above="@+id/Timerfield"
@@ -44,6 +44,17 @@
         android:id="@+id/button4"
         android:layout_above="@+id/editText"
         android:layout_alignEnd="@+id/editText" />
+
+    <Switch
+        android:text="@string/Bluetooth1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:id="@+id/switch1"
+        android:textOff="OFF"
+        android:textOn="ON"/>
+
 
 
 </RelativeLayout>

@@ -3,4 +3,6 @@
     <string name="timer"><![CDATA[<timer>]]></string>
     <string name="btime">Start Timer</string>
     <string name="stop">Stop</string>
+    <string name="Bluetooth" />
+    <string name="Bluetooth1">Bluetooth</string>
 </resources>
